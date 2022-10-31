@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #27282d;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+}
+
+.form img {
+    max-width: 200px;
+    width: 50%;
+}
+
+.form img.frase {
+    max-width: 500px;
+}
+
+
+.form input[type=text],
+.form input[type=email] {
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 32px;
+    border: 1px solid #0b6e38;
+}
+
+
+
+.form textarea {
+    resize: initial;
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #0b6e38;
+}
+
+.form input[type=submit] {
+    padding-left: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(13, 173, 160);
+    display: block;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 32px;
+    border: 2px solid #ffffff;
+}
+
+
